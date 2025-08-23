@@ -1,0 +1,357 @@
+body, h1, h2, p, a, button {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #111;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.menu a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.nav-buttons button {
+  margin-left: 10px;
+  border: 1px solid #000;
+  background: none;
+  padding: 5px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.main-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 20px 40px;
+}
+
+.main-title h1 {
+  font-size: 2.5rem;
+}
+
+.main-title a {
+  color: #333;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  padding: 20px 40px;
+}
+
+
+.main-article {
+  background: #f8f8f8;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  width: 1200px;
+  height: 400px;
+  padding: 20px;
+  margin: 10px;
+
+}
+
+.main-article img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  object-position: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.main-article .date {
+  font-size: 0.8rem;
+  padding: 10px;
+  color: #666;
+}
+
+.main-article .text {
+
+  right: 15px;
+  background: white;
+  padding: 15px 20px;
+  border-radius: 16px;
+  max-width: calc(50% - 30px);
+}
+
+.main-article .tag {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 3px 8px;
+  border-radius: 8px;
+  font-size: 0.7rem;
+  margin-bottom: 10px;
+}
+
+.main-article h2 {
+  margin-top: 10px;
+  font-size: 1.3rem;
+}
+
+.arrow {
+  text-decoration: none;
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+  color: black;
+}
+
+.ads {
+  background: #e6f0f8;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.ads .tag {
+  background: #fff;
+  border: 1px solid #000;
+  font-size: 0.7rem;
+  padding: 3px 8px;
+  margin-bottom: 10px;
+
+}
+
+.picks {
+  background: #f3f3f3;
+  padding: 10px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.picks img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+
+}
+
+.picks .tag {
+  margin-top: 10px;
+}
+
+.picks .seeall {
+  margin-top: 10px;
+  background: black;
+  color: white;
+  padding: 5px 12px;
+  border-radius: 8px;
+  border: none;
+
+}
+
+img {
+
+  height: auto;
+  display: block;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', Arial, sans-serif;
+  background: #fff;
+  color: #111;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+}
+
+.header .logo {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.header nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #222;
+  font-size: 0.95rem;
+}
+
+.header .actions button {
+  margin-left: 10px;
+  border: 1px solid #111;
+  background: none;
+  border-radius: 20px;
+  padding: 6px 14px;
+}
+
+.main-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+}
+
+.main-title h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.main-title a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #444;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+  padding: 20px 60px;
+}
+
+.main-article {
+  position: relative;
+  border-radius: 22px;
+  overflow: hidden;
+}
+
+.main-article img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 22px;
+}
+
+.main-article .date {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: white;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+}
+
+.main-article .text {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: white;
+  padding: 15px 20px;
+  border-radius: 16px;
+  max-width: 70%;
+}
+
+.main-article .tag {
+  border: 1px solid #aaa;
+  border-radius: 20px;
+  padding: 3px 10px;
+  font-size: 0.7rem;
+  margin-bottom: 8px;
+  display: inline-block;
+}
+
+.main-article h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.arrow {
+  position: absolute;
+  bottom: 10px;
+  right: 25px;
+  background: white;
+  border-radius: 50%;
+  padding: 8px 14px;
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: black;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.ads {
+  background: #e8f2fa;
+  padding: 25px;
+  border-radius: 22px;
+}
+
+.ads .tag {
+  border: 1px solid #333;
+  border-radius: 20px;
+  padding: 4px 10px;
+  font-size: 0.75rem;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.picks {
+  position: relative;
+  background: white;
+  border-radius: 22px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.picks img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  border-radius: 22px;
+}
+
+.picks .tag {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: white;
+  border-radius: 20px;
+  padding: 4px 12px;
+  border: 1px solid #ccc;
+  font-size: 0.8rem;
+}
+
+.picks .seeall {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  color: black;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 22px;
+  cursor: pointer;
+}
+.ads .textoADS{
+  padding-left: 150px;
+
+}
+
